@@ -1,0 +1,50 @@
+/* Estilos para el encabezado */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-blue {
+    background-color: #007bff;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    width: 80px; 
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden; 
+    
+}
+
+.logo2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10px;
+    width: 100%; 
+    height: auto; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
